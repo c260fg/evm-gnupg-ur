@@ -44,7 +44,7 @@ if [[ ! -v "_evmfs" ]]; then
   fi
 fi
 if [[ ! -v "_offline" ]]; then
-  _offine="true"
+  _offine="false"
 fi
 if [[ ! -v "_git" ]]; then
   _git="false"
@@ -132,7 +132,7 @@ _tag_name="commit"
 _tarname="${pkgname}-${_tag}"
 _tarfile="${_tarname}.${_archive_format}"
 if [[ "${_offline}" == "true" ]]; then
-  _url="file://${HOME}/${pkgname}"
+  _url="file://${HOME}/${_pkg}"
 fi
 _sum="9839011e4bb3dbbd437f65bdf94b9ffd108f186d1b9afddd3265ff47b5fb00ee"
 _sig_sum="fc6f317f939d985fea1ad5c19b181e38fa992d76ba2514317db0a9a166004ff9"
