@@ -44,7 +44,7 @@ if [[ ! -v "_evmfs" ]]; then
   fi
 fi
 if [[ ! -v "_offline" ]]; then
-  _offine="false"
+  _offline="false"
 fi
 if [[ ! -v "_git" ]]; then
   _git="false"
