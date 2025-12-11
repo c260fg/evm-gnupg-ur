@@ -75,9 +75,9 @@ if [[ "${_docs}" == "true" ]]; then
     "${_pkg}-docs"
   )
 fi
-pkgver="0.0.0.0.0.0.0.0.0.1.1"
+pkgver="0.0.0.0.0.0.0.0.1.1"
 _crash_bash_pkgver="0.0.0.0.0.1.1.1.1"
-_commit="59f9d7446525970fe672bcd4833d8051592da10e"
+_commit="a14b8d918d5d2ccc3e81ca5d52efc56a21ad4eb0"
 pkgrel=1
 _pkgdesc=(
   "GNUPG wrapper to manage"
@@ -122,10 +122,11 @@ _tarfile="${_tarname}.${_archive_format}"
 if [[ "${_offline}" == "true" ]]; then
   _url="file://${HOME}/${pkgname}"
 fi
-_sum="23151985d27fc88ed09e7111c0496b2c6abe27d644e65b7c6d5a91b5edfa35cb"
-_sig_sum="156f762c7f4dbe31e5e061adae4cd90e04c05d448e5faf1189fbf815675f2859"
+_sum="9839011e4bb3dbbd437f65bdf94b9ffd108f186d1b9afddd3265ff47b5fb00ee"
+_sig_sum="fc6f317f939d985fea1ad5c19b181e38fa992d76ba2514317db0a9a166004ff9"
 _evmfs_network="100"
 _evmfs_address="0x69470b18f8b8b5f92b48f6199dcb147b4be96571"
+# Dvorak
 _evmfs_ns="0x87003Bd6C074C713783df04f36517451fF34CBEf"
 _evmfs_dir="evmfs://${_evmfs_network}/${_evmfs_address}/${_evmfs_ns}"
 _evmfs_uri="${_evmfs_dir}/${_sum}"
