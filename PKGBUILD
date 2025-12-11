@@ -209,7 +209,7 @@ package_evm-gnupg() {
     install-scripts
   install \
     -vDm644 \
-    "${srcdir}/COPYING" \
+    "${srcdir}/${_tarname}/COPYING" \
     -t \
     "${pkgdir}/usr/share/licenses/${pkgname}/"
 }
