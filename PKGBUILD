@@ -77,6 +77,7 @@ if [[ "${_docs}" == "true" ]]; then
 fi
 pkgver="0.0.0.0.0.0.0.0.1.1.1"
 _crash_bash_pkgver="0.0.0.0.0.1.1.1.1"
+_evm_wallet_pkgver="0.0.0.0.0.0.0.0.0.0.1.1.1"
 _commit="8bb4f049a529fba438face89be71b210fad3d005"
 pkgrel=1
 _pkgdesc=(
@@ -95,7 +96,7 @@ license=(
   'AGPL3'
 )
 depends=(
-  "evm-wallet"
+  "evm-wallet>=${_evm_wallet_pkgver}"
   "evm-openpgp-keyserver"
   "gnupg"
   "libcrash-bash>=${_crash_bash_pkgver}"
