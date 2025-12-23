@@ -75,10 +75,10 @@ if [[ "${_docs}" == "true" ]]; then
     "${_pkg}-docs"
   )
 fi
-pkgver="0.0.0.0.0.0.0.0.1.1.1.1.1"
+pkgver="0.0.0.0.0.0.0.0.1.1.1.1.1.1"
 _crash_bash_pkgver="0.0.0.0.0.1.1.1.1"
 _evm_wallet_pkgver="0.0.0.0.0.0.0.0.0.0.1.1.1"
-_commit="9f8b58bbf59d209950d180220381dbcd5c6dbc52"
+_commit="92bbe0543214192b209bc5e9c24fb11d4a04755e"
 pkgrel=1
 _pkgdesc=(
   "GNUPG wrapper to manage"
@@ -135,8 +135,8 @@ _tarfile="${_tarname}.${_archive_format}"
 if [[ "${_offline}" == "true" ]]; then
   _url="file://${HOME}/${_pkg}"
 fi
-_sum="b3f6121602239cb3672a5602446b3c95d221b79094ece74f9dedcd58b480556c"
-_sig_sum="9341c830cf52375a38f5f076ed98e13bf1c309d0dd7903f15722abeff1011b24"
+_sum="b1ae9094b65fdff2164e91a6aa8ee50d46b6aa2926b4b6e05a9dd9ef06bad28b"
+_sig_sum="0abaa1ba4cb8d617cacfae26e3a1eb2438c9341387b03d79b2cfcbb6b915ee76"
 _evmfs_network="100"
 _evmfs_address="0x69470b18f8b8b5f92b48f6199dcb147b4be96571"
 # Dvorak
